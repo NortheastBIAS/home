@@ -9839,16 +9839,16 @@ a.text-dark:hover, a.text-dark:focus {
 /********** Stay Connected Section ************/
 
 /* Stay Connected Section */
-#stay-connected {
+#connect {
   background-color: #fff;
 }
 
 
-#stay-connected .section-title {
+#connect .section-title {
   color: #fff;
 }
 
-#stay-connected .btn-stay-connected {
+#connect .btn-connect {
   background-color: var(--primary-color); /* Primary button color */
   color: #fff; /* White text */
   border: none;
@@ -9859,21 +9859,21 @@ a.text-dark:hover, a.text-dark:focus {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-#stay-connected .btn-stay-connected i {
+#connect .btn-connect i {
   font-size: 24px; /* Icon size */
   vertical-align: middle;
 }
 
-#stay-connected .btn-stay-connected:hover {
+#connect .btn-connect:hover {
   background-color: #2b7fa9;
   transform: translateY(-3px); /* Lift the button slightly on hover */
 }
 
-#stay-connected .btn-lg {
+#connect .btn-lg {
   width: 100%; /* Full width on mobile */
 }
 
-#stay-connected .container-fluid {
+#connect .container-fluid {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -9966,14 +9966,14 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
-  color: #343a40;
+  color: var(--primary-color);
   font-weight: 500;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--primary-color);
+  color: #0f3e55;
 }
 
 @media (max-width: 991.98px) {
